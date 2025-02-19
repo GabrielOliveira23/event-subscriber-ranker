@@ -5,3 +5,7 @@ Content-Type: application/json
     "name": "Gabriel Leonardo",
     "email": "gabriel@teste.com"
 }
+
+###
+
+GET http://localhost:4000/invites/fdsa123
