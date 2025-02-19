@@ -19,6 +19,7 @@ A server built with Node.js and TypeScript to manage **subscribers** for events.
 - **PostgreSQL**: Relational database for persistent data storage.
 - **Redis**: In-memory cache for tracking accesses and optimized performance.
 - **Drizzle ORM**: Simplified and efficient database management.
+- **Drizzle Kit**: CLI tool for database migrations.
 - **Docker**: Containerization to standardize development and production environments.
 - **Swagger**: Tool for interactive API documentation.
 
@@ -62,13 +63,13 @@ Make sure you have the following tools installed:
 5. Run the database migrations:
 
     ```bash
-    npm run db:migrate
+      npx drizzle-kit up
     ```
 
 6. Start the development server:
 
     ```bash
-    npm run dev
+      npm run dev
     ```
 
 The server will be available at <http://localhost:4000>.
