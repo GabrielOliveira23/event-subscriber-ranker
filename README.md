@@ -38,8 +38,8 @@ Make sure you have the following tools installed:
 1. Clone the repository:
 
     ```bash
-      git clone https://github.com/your-username/repository-name.git
-      cd repository-name
+      git clone https://github.com/GabrielOliveira23/event-subscriber-ranker.git
+      cd event-subscriber-ranker
     ```
 
 2. Copy the .env.example file to .env and configure the environment variables:
