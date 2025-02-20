@@ -2,10 +2,26 @@ POST http://localhost:4000/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Gabriel Leonardo",
-    "email": "gabriel@teste.com"
+    "name": "Gabriel M",
+    "email": "indicado3@teste.com",
+    "referrer": "727f805c-d832-4a19-bb6a-2ef89b35becd"
 }
 
 ###
 
-GET http://localhost:4000/invites/fdsa123
+GET http://localhost:4000/invites/5b0b0c13-7520-4454-b98f-6ef7b50a9098
+
+###
+
+GET http://localhost:4000/subscribers/5b0b0c13-7520-4454-b98f-6ef7b50a9098/ranking/clicks
+
+###
+
+GET http://localhost:4000/subscribers/5b0b0c13-7520-4454-b98f-6ef7b50a9098/ranking/count
+
+###
+
+GET http://localhost:4000/subscribers/5b0b0c13-7520-4454-b98f-6ef7b50a9098/ranking/position
+
+###
+GET http://localhost:4000/ranking
