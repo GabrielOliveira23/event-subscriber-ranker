@@ -63,7 +63,8 @@ Make sure you have the following tools installed:
 5. Run the database migrations:
 
     ```bash
-      npx drizzle-kit up
+      npx drizzle-kit generate
+      npx drizzle-kit migrate
     ```
 
 6. Start the development server:
