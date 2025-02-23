@@ -9,7 +9,7 @@ interface GetSubscriberInviteClicksParams {
 export async function getSubscriberInviteClicks({
   subscriberId,
 }: GetSubscriberInviteClicksParams) {
-  const count = await redis.hget('refferal:access-count', subscriberId)
+  const count = await redis.hget('referral:access-count', subscriberId)
 
   return { count: count ? Number.parseInt(count) : 0 }
 }

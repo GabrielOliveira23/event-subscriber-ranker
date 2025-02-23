@@ -24,11 +24,11 @@ export const accessInviteLinkRoute: FastifyPluginAsyncZod = async app => {
       await accessInviteLink({ subscriberId })
 
       // to check if it's working
-      // console.log(await redis.hgetall('refferal:access-count'))
+      // console.log(await redis.hgetall('referral:access-count'))
 
       const redirectUrl = new URL(env.WEB_URL)
 
-      redirectUrl.searchParams.set('refferer', subscriberId)
+      redirectUrl.searchParams.set('referrer', subscriberId)
 
       // 301: redirect permanente, o browser nao vai passar toda vez por essa funcao por conta do cache
       // 302: redirect temporario
