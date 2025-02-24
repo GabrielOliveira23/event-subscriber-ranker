@@ -8,9 +8,7 @@ import {
   serializerCompiler,
   validatorCompiler,
 } from 'fastify-type-provider-zod'
-import { z } from 'zod'
 import { env } from './env'
-import { getSubscriberRankingPosition } from './functions/get-subscriber-ranking-position'
 import { accessInviteLinkRoute } from './routes/access-invite-link-route'
 import { getRankingRoute } from './routes/get-ranking-route'
 import { getSubscriberInviteClicksRoute } from './routes/get-subscriber-invite-clicks-route'
